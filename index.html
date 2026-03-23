@@ -51,12 +51,10 @@ body {
   box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
 
-/* efeito hover */
 .card-service:hover {
   transform: translateY(-8px);
 }
 
-/* brilho */
 .card-service::after {
   content: "";
   position: absolute;
@@ -69,24 +67,20 @@ body {
   transition: 0.4s;
 }
 
-/* quando clica */
 .card-service:active::after {
   opacity: 1;
 }
 
-/* título */
 .card-service h3 {
   margin-bottom: 10px;
 }
 
-/* preço */
 .price {
   font-size: 20px;
   font-weight: bold;
   color: #38bdf8;
 }
 
-/* botão */
 .btn-contact {
   background: #22c55e;
   color: white;
@@ -97,7 +91,6 @@ body {
   background: #16a34a;
 }
 
-/* form */
 form {
   background: #1e293b;
   padding: 20px;
@@ -105,7 +98,6 @@ form {
   margin: 20px;
 }
 
-/* footer */
 footer {
   margin-top: 30px;
 }
@@ -131,65 +123,7 @@ footer {
   <h3>Manutenção Completa</h3>
   <p>Diagnóstico, limpeza interna e otimização total do sistema.</p>
   <div class="price">$110,00</div>
-  <a href="https://api.whatsapp.com/send?phone=553299025380&text=Olá,%20vim%20pelo%20site%20e%20quero%20manutenção%20de%20computador" class="btn btn-contact">Solicitar</a>
+  <a href="#" onclick="window.open('https://api.whatsapp.com/send?phone=553299025380&text=Olá,%20vim%20pelo%20site%20e%20quero%20manutenção%20de%20computador','_blank')" class="btn btn-contact">Solicitar</a>
 </div>
 
-<div class="card-service">
-  <h3>Instalação / Atualização</h3>
-  <p>Instalação de programas, drivers e atualizações do sistema.</p>
-  <div class="price">$50,00</div>
-  <a href="https://api.whatsapp.com/send?phone=553299025380&text=Olá,%20vim%20pelo%20site%20e%20quero%20instalação%20de%20software" class="btn btn-contact">Solicitar</a>
-</div>
-
-<div class="card-service">
-  <h3>Remoção de Vírus</h3>
-  <p>Limpeza profunda contra vírus e melhoria de desempenho.</p>
-  <div class="price">$78,00</div>
-  <a href="https://api.whatsapp.com/send?phone=553299025380&text=Olá,%20preciso%20de%20remoção%20de%20vírus%20no%20computador" class="btn btn-contact">Solicitar</a>
-</div>
-
-</div>
-
-<!-- CELULARES -->
-<div class="container">
-<h2 class="text-center">Celulares</h2>
-
-<div class="card-service">
-  <h3>Remoção de Vírus</h3>
-  <p>Eliminação de apps maliciosos e otimização do sistema.</p>
-  <div class="price">$45,89</div>
-  <a href="https://api.whatsapp.com/send?phone=553299025380&text=Olá,%20preciso%20de%20remoção%20de%20vírus%20no%20celular" class="btn btn-contact">Solicitar</a>
-</div>
-
-<div class="card-service">
-  <h3>Reformatação</h3>
-  <p>Reset completo e instalação limpa do sistema.</p>
-  <div class="price">$50,00</div>
-  <a href="https://api.whatsapp.com/send?phone=553299025380&text=Olá,%20quero%20formatar%20meu%20celular" class="btn btn-contact">Solicitar</a>
-</div>
-
-<div class="card-service">
-  <h3>Checagem</h3>
-  <p>Análise geral para evitar problemas futuros.</p>
-  <div class="price">$20,00</div>
-  <a href="https://api.whatsapp.com/send?phone=553299025380&text=Olá,%20quero%20uma%20checagem%20no%20celular" class="btn btn-contact">Solicitar</a>
-</div>
-
-</div>
-
-<!-- FORM -->
-<h2 class="text-center">Solicitar Orçamento</h2>
-
-<form action="https://formspree.io/f/yourformid" method="POST">
-  <input class="form-control mb-2" type="text" name="name" placeholder="Seu nome" required>
-  <input class="form-control mb-2" type="email" name="email" placeholder="Seu email" required>
-  <textarea class="form-control mb-2" name="message" placeholder="Descreva seu problema"></textarea>
-  <button class="btn btn-contact w-100">Enviar</button>
-</form>
-
-<footer class="banner">
-📱 (32) 9902-5380 • Atendimento Rápido e Profissional
-</footer>
-
-</body>
-</html>
+<div class="
